@@ -25,6 +25,12 @@ sqrt 결과: 1.4142135623730951
 >>> print(f"exp 결과: {exp}")
 exp 결과: 7.38905609893065
 
+#250729 p63
+import math
+math.log(2,4)
+
+math.log(4,2)
+
 
 
 

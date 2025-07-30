@@ -32,5 +32,16 @@ math.log(2,4)
 math.log(4,2)
 
 
+#250731
+import math
+from sympy import expand, Symbol
+x = Symbol('x')
+a = Symbol('a')
+x = 3
+expand((a*x)+2) = 8
+
+>>> from sympy import expand, factor, Symbol
+>>> x = Symbol('x')
+>>> expand((x + 1) * (x +5))
 
 

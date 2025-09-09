@@ -44,4 +44,7 @@ expand((a*x)+2) = 8
 >>> x = Symbol('x')
 >>> expand((x + 1) * (x +5))
 
-
+#250909 p101
+from sympy import Limit, S, Symbol
+x = Symbol('x')
+Limit(1/x, x, S.Infinity).doit()
